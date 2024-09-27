@@ -1,3 +1,13 @@
+/*
+Program Name: FactorialRecursiveOverflow
+Date: 9/27/2024
+Author: Charles Doan
+Module Purpose: This program performs the iterative and recursive versions 
+of a factorial algorithm to help the user determine which approach may be faster
+and at what point does each type of integer (uint16_t, uint32_t, uint64_t) 
+encounters overflow.
+*/
+
 #include <chrono>
 #include <limits>
 #include <locale>
