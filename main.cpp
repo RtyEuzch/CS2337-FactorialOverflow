@@ -95,8 +95,8 @@ void calculateTimeFactorialRecursiveFunc() {
 
   //$$ display Unsigned overflow at : mult01
   //$$ display Time Elapsed (nano)  : timeElapsed.count()
-  cout << "Unsigned overflow at: " << mult01 << "\n" 
-       << "Time Elapsed (nano) : " << timeElapsed.count() << endl;
+  cout << "Unsigned overflow at: " << setw(15) << mult01 << "\n" 
+       << "Time Elapsed (nano) : " << setw(15) << timeElapsed.count() << endl;
 }//calculateTimeFactorialRecursiveFunc()
 
 template <typename TYPESIZE> 
@@ -152,7 +152,7 @@ int main() {
   factorialCalculateUint64Obj.executeFactorialForType();
 
   // Hold the screen
-  
+
   cout << "Press enter to end";
   cin.ignore();
   exit (EXIT_SUCCESS);
